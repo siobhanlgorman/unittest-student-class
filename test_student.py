@@ -17,7 +17,7 @@ class TestStudent(unittest.TestCase):
 
     def test_email(self):
         student = Student('John', 'Doe')
-        self.assertEqual(student.email, 'john.doe@email.com')
+        self.assertEqual(student.email, "john.doe@email.com")
 
 
 if __name__ == "__main__":

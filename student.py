@@ -1,5 +1,6 @@
 from datetime import date, timedelta
 
+
 class Student:
     """A Student class as a base for method testing"""
 
